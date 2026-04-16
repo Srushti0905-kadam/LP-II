@@ -5,6 +5,5 @@
 
 
 ## Output
-![alt text](<Screenshot 2026-03-27 202517.png>) 
-![alt text](<Screenshot 2026-03-27 202409.png>) 
-![alt text](<Screenshot 2026-03-27 202456.png>)
+![alt text](image.png)
+![alt text](image-1.png)
