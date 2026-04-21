@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Basic Mobile Website</title>
+
+    <!-- jQuery Mobile -->
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+<!-- HOME PAGE -->
+<div data-role="page" id="home">
+
+    <div data-role="header" class="header">
+        <h1>My Website</h1>
+    </div>
+
+    <div data-role="main" class="ui-content">
+        <h2>Welcome</h2>
+        <p>This is a simple mobile website.</p>
+
+        <a href="#about" class="ui-btn">About</a>
+        <a href="#contact" class="ui-btn">Contact</a>
+    </div>
+
+    <div data-role="footer" class="footer">
+        <h4>Footer</h4>
+    </div>
+
+</div>
+
+<!-- ABOUT PAGE -->
+<div data-role="page" id="about">
+
+    <div data-role="header" class="header">
+        <h1>About</h1>
+        <a href="#home" class="ui-btn ui-btn-left">Home</a>
+    </div>
+
+    <div data-role="main" class="ui-content">
+        <p>This is the About page.</p>
+    </div>
+
+    <div data-role="footer" class="footer">
+        <h4>About Page</h4>
+    </div>
+
+</div>
+
+<!-- CONTACT PAGE -->
+<div data-role="page" id="contact">
+
+    <div data-role="header" class="header">
+        <h1>Contact</h1>
+        <a href="#home" class="ui-btn ui-btn-left">Home</a>
+    </div>
+
+    <div data-role="main" class="ui-content">
+
+        <form>
+            <label>Name:</label>
+            <input type="text">
+
+            <label>Email:</label>
+            <input type="email">
+
+            <label>Message:</label>
+            <textarea></textarea>
+
+            <input type="submit" value="Submit" class="ui-btn">
+        </form>
+
+    </div>
+
+    <div data-role="footer" class="footer">
+        <h4>Contact Page</h4>
+    </div>
+
+</div>
+
+</body>
+</html>
