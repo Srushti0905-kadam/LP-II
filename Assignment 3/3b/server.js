@@ -2,16 +2,9 @@ const express = require("express");
 const connectDB = require("./config/db");
 
 const app = express();
-
-
 app.use(express.json());
-
 connectDB();
-
-
 app.use("/users", require("./routes/userroutes"));
-
-
 app.get("/", (req, res) => {
   res.send("Server Running...");
 });
